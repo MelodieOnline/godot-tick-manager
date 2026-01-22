@@ -109,7 +109,7 @@ public void physics_tick(float delta){
 }
 
 public void custom_tick(float delta){
-    // Logic for 20 ticks per second (e.g. AI, UI) (Adjustable in 'tick_manager script)
+    // Logic for 20 ticks per second (e.g. AI, UI) (Adjustable in 'tick_manager' script)
 }
 ```
 
