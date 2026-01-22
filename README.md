@@ -71,7 +71,7 @@ A lightweight and efficient tick system for Godot 4.X(C#).
 
 ## Why this system?
 * **Optimized for Performance** -> Reduces engine overhead through a centralized management system.
-* **Easy Integration** -> Uses a simple interface so anyone can implement it without Problems
+* **Easy Integration** -> Uses a simple interface so anyone can implement it without Problems.
 * **Singleton** -> Built with a singleton guard to ensure only one Ticksystem runs at a time.
 
 ---------------------------------------------------------------
