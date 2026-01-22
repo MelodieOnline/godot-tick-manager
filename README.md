@@ -13,6 +13,11 @@ Ein leichtes und effizientes Ticksystem für Godot 4.X (C#).
 
 ---------------------------------------------------------------
 ## Benutzung
+
+**WICHTIG!!** Vergiss nicht, das Skript 'tick_manager.cs' in den Godot-Einstellungen als Autoload (Singleton) hinzuzufügen!
+Sonst wirkt dieses System nicht!
+
+
 **1.** fügt 'i_tickable' zu deinem Skript:
 
 ```csharp
@@ -71,6 +76,9 @@ A lightweight and efficient tick system for Godot 4.X(C#).
 
 ---------------------------------------------------------------
 # Usage
+**IMPORTANT!!** Don’t forget to add the script tick_manager.cs as an Autoload (Singleton) in the Godot settings!
+Otherwise, this system won’t work!
+
 **1.** Add 'i_tickable' to your script:
 
 ```csharp

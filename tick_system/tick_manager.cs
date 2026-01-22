@@ -11,7 +11,7 @@ public partial class tick_manager : Node
     private float _timer = 0f;
 
     public void register_tickable(i_tickable obj){
-        if(_tickables.Contains(obj)) return;
+        if(_tickables.Contains(obj) || obj == null) return;
 
         _tickables.Add(obj);
     }
@@ -26,6 +26,8 @@ public partial class tick_manager : Node
 
     public override void _PhysicsProcess(double delta)
     {
+        if(_tickables.Count == 0) return;
+
         float f_delta = (float)delta;
         _timer += f_delta;
 
